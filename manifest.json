@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "CrediPick",
+  "version": "1.0",
+  "description": "This is an extension help you pick the most suitable credit cards.",
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "icons": {
+    "16": "icon-16.png",
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icon-16.png",
+      "48": "icon-48.png",
+      "128": "icon-128.png"
+    }
+  }
+}
+  

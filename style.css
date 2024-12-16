@@ -1,0 +1,457 @@
+.extension-open {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.extension-open .overlap-wrapper {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 335px;
+  height: 537px;
+}
+
+.extension-open .overlap {
+  position: relative;
+  width: 339px;
+  height: 537px; /* 確保和擴充視窗對齊 */
+  overflow-y: auto; /* 啟用垂直滾動 */
+  overflow-x: hidden; /* 禁用水平滾動 */
+  box-sizing: border-box; /* 確保內距計入寬度 */
+}
+
+.extension-open .overlap::-webkit-scrollbar {
+  width: 8px; /* 滾動條寬度 */
+}
+
+.extension-open .overlap::-webkit-scrollbar-track {
+  background: transparent; /* 滾動條背景 */
+}
+
+.extension-open .overlap::-webkit-scrollbar-thumb {
+  background-color: #aaa; /* 滾動條顏色 */
+  border-radius: 4px; /* 滾動條圓角 */
+}
+
+.extension-open .rectangle {
+  position: absolute;
+  width: 335px;
+  height: 537px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.extension-open .group {
+  position: absolute;
+  width: 339px;
+  height: 86px;
+  top: 0;
+  left: 0;
+}
+
+.extension-open .overlap-group {
+  position: fixed;
+  width: 335px;
+  height: 86px;
+  background-color: #96e1e6;
+  z-index: 1000;
+}
+
+.extension-open .close-svgrepo-com {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: 3px;
+  left: 310px;
+  cursor: pointer;
+}
+
+.extension-open .text-wrapper {
+  position: absolute;
+  width: 116px;
+  top: 15px;
+  left: 13px;
+  font-family: "Roboto-Black", Helvetica;
+  font-weight: 900;
+  color: #1eb2a2;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.extension-open .div {
+  position: absolute;
+  width: 182px;
+  top: 51px;
+  left: 13px;
+  font-family: "Encode Sans-Medium", Helvetica;
+  font-weight: 600;
+  color: #1eb2a2;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.extension-open .image {
+  width: 60px;
+  height: 60px;
+  top: 12px;
+  left: 229px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.extension-open .group-2 {
+  position: absolute;
+  width: 335px;
+  height: 45px;
+  top: 98px;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.group-2 .line {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1.5px; /* 線條的厚度 */
+  background-color: #E8E8E8; /* 線條顏色 */
+  margin-top: 0px; /* 與內容的距離 */
+}
+
+.extension-open .overlap-group-wrapper {
+  position: absolute;
+  width: 112px;
+  height: 24px;
+  top: 0;
+  left: 209px;
+}
+
+.extension-open .div-wrapper {
+  position: relative;
+  width: 110px;
+  height: 24px;
+  background-color: #1bbcab;
+  border-radius: 16px;
+}
+
+.extension-open .text-wrapper-2 {
+  position: absolute;
+  width: 100px;
+  top: 5px;
+  left: 7px;
+  font-family: "Enriqueta-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.extension-open .line {
+  position: absolute;
+  width: 335px;
+  height: 1px;
+  top: 34px;
+  left: 0;
+  object-fit: cover;
+}
+
+#logo-container {
+  width: 109px;
+  top: 3px;
+  left: 15px;
+  font-weight: 600;
+  color: #1bbcab;
+  position: absolute;
+  object-fit: cover;
+}
+
+.extension-open .frame {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  align-items: flex-start;
+  gap: 15px;
+  position: absolute;
+  top: 150px;
+  left: 16px;
+  padding-bottom: 50px; /* 留出空間避免被擋住 */
+}
+
+.extension-open .group-3 {
+  position: relative;
+  width: 305px;
+  height: 215px;
+  margin-right: -2.00px;
+}
+
+.extension-open .text-wrapper-3 {
+  position: absolute;
+  width: 105px;
+  top: 0;
+  left: 0;
+  font-family: "Enriqueta-Bold", Helvetica;
+  font-weight: 700;
+  color: #494949;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.extension-open .group-4 {
+  position: absolute;
+  width: 311px;
+  height: 186px;
+  top: 29px;
+  left: 0;
+}
+
+.extension-open .overlap-group-2 {
+  position: relative;
+  width: 303px;
+  height: 186px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: #bebebe;
+}
+
+.extension-open .overlap-2 {
+  position: absolute;
+  width: 155px;
+  height: 50px;
+  top: 12px;
+  left: 135px;
+}
+
+.extension-open .group-5 {
+  position: absolute;
+  width: 35px;
+  height: 15px;
+  top: 0;
+  left: 120px;
+
+  display: grid;
+  grid-template-columns: auto auto; /* 兩列，適應內容 */
+  justify-content: center; /* 水平置中 */
+}
+
+.extension-open .element {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  top: 2px;
+  left: 0;
+  object-fit: cover;
+}
+
+.extension-open .text-wrapper-4 {
+  position: absolute;
+  left: 16px;
+  top: 1px;
+  font-family: "Enriqueta-Bold", Helvetica;
+  font-weight: 700;
+  color: #1eb2a2;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.extension-open .p {
+  position: absolute;
+  width: 151px;
+  top: 17px;
+  left: 0;
+  font-family: "Enriqueta-Bold", Helvetica;
+  font-weight: 700;
+  color: #494949;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 16px;
+  display: -webkit-box; /* Webkit 瀏覽器的多行截斷 */
+  display: box; /* 標準屬性，未來可能使用 */
+  -webkit-box-orient: vertical; /* Webkit 的垂直排列 */
+  box-orient: vertical; /* 標準屬性，未來可能使用 */
+  -webkit-line-clamp: 2; /* 限制兩行 */
+  line-clamp: 2; /* 標準屬性 */
+  overflow: hidden; /* 隱藏超出的文字 */
+  text-overflow: ellipsis; /* 超出部分顯示省略號 */
+  word-break: break-word; /* 長單字換行避免溢出 */
+}
+
+.extension-open .text-wrapper-5 {
+  position: absolute;
+  width: 133px;
+  top: 3px;
+  left: 0;
+  font-family: "Enriqueta-Bold", Helvetica;
+  font-weight: 700;
+  color: #1eb2a2;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.extension-open .group-6 {
+  position: absolute;
+  width: 77px; /* 保持指定的寬度 */
+  height: 16px; /* 保持指定的高度 */
+  top: 158px; /* 保持定位 */
+  left: 215px; /* 保持定位 */
+
+  display: flex; /* 啟用 Flexbox */
+  align-items: center; /* 垂直方向置中 */
+  justify-content: center; /* 水平方向置中 */
+  gap: 15px; /* 控制 div 和 img 之間的距離 */
+}
+
+
+.extension-open .text-wrapper-6 {
+  position: absolute;
+  width: 65px;
+  top: 0;
+  left: 0;
+  font-family: "Noto Sans Devanagari UI SemiCondensed-Bold", Helvetica;
+  font-weight: 700;
+  color: #161616;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.extension-open .vector {
+  position: absolute;
+  left: 70px;
+}
+
+.extension-open .group-7 {
+  position: absolute;
+  width: 200px;
+  height: 19px;
+  top: 110px;
+  left: 14px;
+}
+
+.extension-open .image-2 {
+  height: 11px;
+  top: 4px;
+  left: 0;
+  position: absolute;
+  width: 11px;
+  object-fit: cover;
+}
+
+.group-7 .text-wrapper-7 {
+  position: absolute;
+  width: 179px;
+  top: 2px;
+  left: 19px;
+  font-family: "Enriqueta-Medium", Helvetica;
+  font-weight: 500;
+  color: #8b8b8b;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.group-8 .text-wrapper-7 {
+  position: absolute;
+  width: 179px;
+  top: 0px;
+  left: 19px;
+  font-family: "Enriqueta-Medium", Helvetica;
+  font-weight: 500;
+  color: #8b8b8b;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.extension-open .group-8 {
+  position: absolute;
+  width: 200px;
+  height: 19px;
+  top: 135px;
+  left: 14px;
+}
+
+.extension-open .image-3 {
+  width: 11px;
+  height: 11px;
+  top: 3px;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+}
+
+.extension-open .text-wrapper-8 {
+  position: absolute;
+  width: 133px;
+  top: 88px;
+  left: 14px;
+  font-family: "Enriqueta-Bold", Helvetica;
+  font-weight: 700;
+  color: #494949;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.extension-open .text-wrapper-9 {
+  position: absolute;
+  width: 133px;
+  top: 68px;
+  left: 134px;
+  font-family: "Enriqueta-Bold", Helvetica;
+  font-weight: 700;
+  color: #aaaaaa;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.extension-open .creditcard {
+  position: absolute;
+  width: 109px;
+  height: 68px;
+  top: 11px;
+  left: 14px;
+  object-fit: cover;
+}
+
+.extension-open .group-wrapper {
+  position: sticky;
+  width: 335px;
+  height: 41px;
+  top: 496px;
+  left: 0;
+  background-color: #f4f4f4;
+  z-index: 1000;
+}
+
+.extension-open .group-12 {
+  position: relative;
+  width: 134px;
+  height: 16px;
+  top: 12px;
+  left: 102px;
+  z-index: 1000;
+}
+
+.extension-open .text-wrapper-10 {
+  position: absolute;
+  width: 132px;
+  top: 0;
+  left: 0;
+  font-family: "Noto Sans Devanagari UI SemiCondensed-Bold", Helvetica;
+  font-weight: 700;
+  color: #161616;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
