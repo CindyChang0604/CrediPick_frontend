@@ -84,7 +84,7 @@
 
 .extension-open .div {
   position: absolute;
-  width: 182px;
+  width: 220px;
   top: 51px;
   left: 13px;
   font-family: "Encode Sans-Medium", Helvetica;
@@ -161,7 +161,7 @@
 }
 
 #logo-container {
-  width: 109px;
+  width: 180px;
   top: 3px;
   left: 15px;
   font-weight: 600;
@@ -175,11 +175,11 @@
   flex-direction: column;
   width: 320px;
   align-items: flex-start;
-  gap: 15px;
+  gap: 30px;
   position: absolute;
   top: 150px;
   left: 16px;
-  padding-bottom: 50px; /* 留出空間避免被擋住 */
+  padding-bottom: 70px; /* 留出空間避免被擋住 */
 }
 
 .extension-open .group-3 {
@@ -214,7 +214,7 @@
 .extension-open .overlap-group-2 {
   position: relative;
   width: 303px;
-  height: 186px;
+  height: 200px;
   background-color: #ffffff;
   border-radius: 8px;
   border: 1px solid;
@@ -262,6 +262,7 @@
   line-height: normal;
 }
 
+
 .extension-open .p {
   position: absolute;
   width: 151px;
@@ -301,7 +302,7 @@
   position: absolute;
   width: 77px; /* 保持指定的寬度 */
   height: 16px; /* 保持指定的高度 */
-  top: 158px; /* 保持定位 */
+  top: 175px; /* 保持定位 */
   left: 215px; /* 保持定位 */
 
   display: flex; /* 啟用 Flexbox */
@@ -327,6 +328,7 @@
 .extension-open .vector {
   position: absolute;
   left: 70px;
+  bottom: 4px;
 }
 
 .extension-open .group-7 {
@@ -347,8 +349,8 @@
 }
 
 .group-7 .text-wrapper-7 {
-  position: absolute;
-  width: 179px;
+  position: relative;
+  width: 260px;
   top: 2px;
   left: 19px;
   font-family: "Enriqueta-Medium", Helvetica;
@@ -360,8 +362,8 @@
 }
 
 .group-8 .text-wrapper-7 {
-  position: absolute;
-  width: 179px;
+  position: relative;
+  width: 260px;
   top: 0px;
   left: 19px;
   font-family: "Enriqueta-Medium", Helvetica;
@@ -369,7 +371,14 @@
   color: #8b8b8b;
   font-size: 12px;
   letter-spacing: 0;
-  line-height: normal;
+  line-height: 1.5; /* 行高 */
+  white-space: normal; /* 允許文字換行 */
+  overflow: hidden; /* 隱藏超出部分 */
+  text-overflow: ellipsis; /* 超出部分顯示省略號 */
+  display: -webkit-box; /* Webkit 瀏覽器的彈性盒模型 */
+  -webkit-box-orient: vertical; /* 設置垂直排列 */
+  -webkit-line-clamp: 2; /* 限制顯示兩行 */
+  line-clamp: 2; /* 標準屬性，未來可能會被支持 */
 }
 
 .extension-open .group-8 {

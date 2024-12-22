@@ -4,8 +4,10 @@
   "version": "1.0",
   "description": "This is an extension help you pick the most suitable credit cards.",
   "permissions": [
+    "storage",
+    "tabs",
     "activeTab",
-    "tabs"
+    "http://localhost:3000/*"
   ],
   "icons": {
     "16": "icon-16.png",
@@ -19,6 +21,18 @@
       "48": "icon-48.png",
       "128": "icon-128.png"
     }
-  }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "img/vector.svg",
+        "img/creditcard.png",
+        "img/check.png",
+        "icon-16.png",
+        "icon-48.png",
+        "icon-128.png"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ]
 }
-  
